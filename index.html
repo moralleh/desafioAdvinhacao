@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desafio Adivinhação</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Desafio Adivinhação</h1>
+  <h3>Tente descobrir qual é a palavra</h3>
+  <h4>Escolha a palavra:</h4>
+
+  <div class="container">
+    <label class="radio-label">
+      <input type="radio" name="option" id="option0" /> Palavra 1
+    </label>
+    <label class="radio-label">
+      <input type="radio" name="option" id="option1" /> Palavra 2
+    </label>
+    <label class="radio-label">
+      <input type="radio" name="option" id="option2" /> Palavra 3
+    </label>
+    <label class="radio-label">
+      <input type="radio" name="option" id="option3" /> Palavra 4
+    </label>
+  </div>
+
+  <div class="container letter">
+    <input id="letter-one" type="text" maxlength="1" />
+    <input id="letter-two" type="text" maxlength="1" />
+    <input id="letter-three" type="text" maxlength="1" />
+  </div>
+
+  <br />
+  <div class="botao-container">
+    <button onclick="outcome()" type="button">Verificar</button>
+  </div>
+
+  <br>
+    <h5 id="help"></h5>
+    <h2 id="result"></h2>
+
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    background-color: blue;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+}
+h1 {
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(239, 255, 61);
+}
+h2 {
+    font-size: 80px;
+}
+h3 {
+    font-size: 40px;
+}
+h4, h5 {
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px;
+}
+.radio-label {
+  font-size: 20px;         
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.radio-label input {
+  transform: scale(2);     
+  cursor: pointer;
+}
+.letter input {
+    height: 150px;
+    width: 250px;
+	font-size: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+    height: 80px;
+    width: 300px;
+    background-color: rgb(239, 255, 61);
+    font-family: monospace;
+    font-size: 40px;
+    align-items: center;
+}
+.botao-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.botao-container button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
